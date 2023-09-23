@@ -1,0 +1,43 @@
+{
+    "name": "exampleappdependency",
+    "version": "#{version}#",
+    "description": "A very simple react webapp designed to serve as a dependency for a DevOps Example.",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "devOpsBuild": "npx tsc",
+        "build": "webpack",
+        "start": "webpack serve --open",
+        "test": "echo No Tests Written."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theNetruist/ExampleAppDependency"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.20.5",
+        "@babel/preset-env": "^7.20.2",
+        "@babel/preset-react": "^7.18.6",
+        "@babel/preset-typescript": "^7.18.6",
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "babel-loader": "^9.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "jest": "^29.4.2",
+        "js-tokens": "^4.0.0",
+        "loose-envify": "^1.4.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "ts-loader": "^9.4.2",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.11.1"
+    }
+}
